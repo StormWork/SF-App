@@ -1,0 +1,55 @@
+.profile-page-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .profile-page-header__profile-picture{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+  }
+}
+
+.profile-page-name{
+  color: #000;
+
+  .profile-page-name__username{
+    font-size: 1.2rem;
+  }
+
+  .profile-page-name__name{
+    font-weight: bold;
+  }
+
+}
+
+
+.profile-page-overhang{
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  position: -webkit-sticky;
+  position: sticky;
+
+  top: 100px;
+
+  background-color: rgba(255, 255, 255, 0.5);
+
+  font-size: 0.6rem;
+  font-color: rgba(0, 0, 0, 0.5);
+
+  text-align: center;
+
+}
+
+.profile-page-images{
+
+}

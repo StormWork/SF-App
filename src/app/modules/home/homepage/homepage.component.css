@@ -1,0 +1,49 @@
+.homepage-intro {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-family: 'Muli', sans-serif;
+  min-height: 450px;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/assets/images/stock-party.jpg"); }
+  .homepage-intro .homepage-intro__heading {
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.82;
+    font-weight: bold; }
+  .homepage-intro .homepage-intro__button {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 25px; }
+    .homepage-intro .homepage-intro__button .sf-button {
+      width: 247px; }
+
+.homepage-header {
+  color: #4a4a4a;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 20px; }
+  .homepage-header .homepage-header__text {
+    display: inline-block;
+    position: relative;
+    line-height: 4rem; }
+  .homepage-header .homepage-header__text::after {
+    height: 1px;
+    width: 130%;
+    background-color: #979797;
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: -15%; }
+
+.homepage-question {
+  color: #4a4a4a;
+  padding: 20px 40px;
+  font-size: 0.9rem; }
+  .homepage-question .homepage-question__title {
+    font-weight: bold; }
+  .homepage-question .homepage-question__answer {
+    font-weight: 500; }

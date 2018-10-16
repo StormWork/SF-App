@@ -1,0 +1,46 @@
+$hamburger-layer-color : rgb(101, 103, 103);
+$hamburger-layer-width: 15px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 4px;
+$hamburger-active-layer-color: #FFF;
+$hamburger-active-hover-opacity: #FFF;
+$hamburger-padding-y: 0px;
+$hamburger-padding-x: 0px;
+
+
+@import '../../../../../node_modules/hamburgers/_sass/hamburgers/hamburgers';
+
+.sf-header{
+  color: #FFF;
+
+  .sf-header__collapsed{
+   // -webkit-transition: height .3s ease;
+    background-color: #000;
+  }
+
+  .sf-header__body{
+    background-color: #000;
+    height: 64px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    .sf-header__logo{
+      color: #e0e0e0;
+    }
+
+    .sf-burger{
+      cursor: pointer;
+
+      .sf-burger__line{
+        height: 1px;
+        background-color: #FFF;
+        width: 20px;
+      }
+    }
+  }
+}

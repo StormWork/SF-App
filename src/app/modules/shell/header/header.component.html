@@ -1,0 +1,17 @@
+<nav class="sf-header sticky-top">
+  <div class="sf-header__collapsed container collapse" id="navHiddenContent">Content</div>
+  <div class="sf-header__body container">
+    <div class="sf-header__back"><a href="#" [routerLink]="['', 'about']"></a></div>
+    <div class="sf-header__logo">
+      <div class="sharefair-logo sharefair-logo__medium no-select" [routerLink]="['']"><b class="sharefair-logo__bold">Share</b>Fair</div>
+    </div>
+    <div class="sf-header__menu-button">
+      <div class="hamburger hamburger--spring"
+           aria-label="Menu" aria-controls="navigation" (click)="toggleMenu()">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+      </div>
+    </div>
+  </div>
+</nav>

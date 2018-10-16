@@ -1,0 +1,50 @@
+.sharefair-logo {
+  font-size: 2rem;
+  text-transform: uppercase; }
+  .sharefair-logo .sharefair-logo__bold {
+    font-weight: bolder;
+    letter-spacing: -0.15rem; }
+
+.sharefair-logo__medium {
+  font-size: 1.3rem; }
+  .sharefair-logo__medium .sharefair-logo__bold {
+    letter-spacing: -0.05rem; }
+
+.no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */ }
+
+.sf-button {
+  font-family: 'Muli', sans-serif;
+  color: #FFF;
+  background-color: #4a90e2;
+  padding: 8px 15px;
+  font-size: 1.15rem;
+  font-weight: bold;
+  border-radius: 2.5px;
+  border: 0px;
+  cursor: pointer;
+  display: inline-block; }
+  .sf-button.sf-button--no-round {
+    border-radius: 0px; }
+  .sf-button.sf-button--orange {
+    background-color: #ff5e5b; }
+  .sf-button.sf-button--no-background {
+    background-color: transparent; }
+  .sf-button.sf-button--white-border {
+    border: 2px solid #FFF; }
+  .sf-button.sf-button--margin-centre {
+    margin-left: auto;
+    margin-right: auto; }
+  .sf-button.sf-button--text-light {
+    font-weight: 200; }

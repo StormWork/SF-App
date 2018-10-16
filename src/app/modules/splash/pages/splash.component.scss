@@ -1,0 +1,21 @@
+.splash-body{
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background-color: #FFF;
+
+  .splash-body__spinner{
+    margin-bottom: 10px;
+
+    mat-progress-spinner{
+      margin: 0 auto;
+    }
+  }
+}

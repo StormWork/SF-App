@@ -1,0 +1,61 @@
+<div class="signup__header">Get paid for instagram shares</div>
+<div class="signup__description">Set up a free image sharing library so you can get paid quickly & easily when your images are shared on Instagram</div>
+<div class="signup__link-button" *ngIf="!loggingIn">
+  <div class="sf-button sf-button--text-light" (click)="linkInstagram()">Link Instagram</div>
+</div>
+
+<div class="signup__progress-spinner" *ngIf="loggingIn">
+  <mat-progress-spinner mode="indeterminate" [diameter]="50"></mat-progress-spinner>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-4 signup_col">
+    <div class="step-card">
+      <div class="step-card__icon">
+        IG
+      </div>
+
+      <div>
+        <div class="step-card__header">Link your Instagram</div>
+        <div class="step-card__description">
+          To get started simply link your instagram and we will generate an image library that matches your profile
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-4 signup_col">
+    <div class="step-card">
+      <div class="step-card__icon">
+        PP
+      </div>
+
+      <div>
+        <div class="step-card__header">Add payment details</div>
+        <div class="step-card__description">
+           Add your PayPal account so that you can accept payments for any image licenses sold
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-xs-12 col-sm-12 col-md-4 signup_col">
+    <div class="step-card">
+      <div class="step-card__icon">
+        BO
+      </div>
+
+      <div>
+        <div class="step-card__header">Add link URL to bio</div>
+        <div class="step-card__description">
+           Copy and paste your unique URL into your instagram profile
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="signup__bottom-description">
+  All share licenses are set at $8.<br />A transaction fee of $0.85 will be applied
+</div>
